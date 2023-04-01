@@ -1,0 +1,42 @@
+:root {
+  --red: #c90e46;
+}
+
+body {
+  font-family: sans-serif;
+}
+* {
+  text-align: center;
+}
+
+#timer {
+  margin-top: 50px;
+  font-size: x-large;
+  color: var(--red);
+}
+
+#tens,
+#seconds {
+  font-size: xx-large;
+  background: var(--red);
+  color: white;
+}
+
+#startEndButton {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  /* center horizontally */
+  justify-content: center;
+}
+
+button {
+  color: var(--red);
+  background: none;
+  border: solid 1px var(--red);
+}
+button:hover {
+  border: solid 1px white;
+  color: white;
+  background: var(--red);
+}
